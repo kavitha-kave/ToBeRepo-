@@ -15,7 +15,10 @@ public class Base {
 		 info.toString();
 		 System.out.print("to String-->"+info.toString()+" getClass-->"+info.getClass());
 		  
-		 
+		 if(info.containsKey(1))
+		 {
+			 System.out.print("True");
+		 }
 		 
 	}
 
