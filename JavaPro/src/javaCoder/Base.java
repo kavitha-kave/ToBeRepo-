@@ -27,6 +27,18 @@ public class Base {
 			System.out.print(a.charAt(i)  );
 		
 		}
+		
+		int num[] = new int[6];
+		for(int i =0; i< num.length;i++)
+		{
+			int d = num[i] = i;
+			System.out.println("num[i]--->"+num[i]);
+			System.out.println("d--->"+d);
+		 
+			
+		}
+		System.out.println("    "+"num....>"+num);
+		
 	 
 		 
 	}
